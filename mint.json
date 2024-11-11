@@ -5,7 +5,7 @@
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg",
-    "href": "https://starter-prism.mintlify.app/"
+    "href": "https://craftlands.host/"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -16,12 +16,12 @@
   "topbarLinks": [
     {
       "name": "Feedback",
-      "url": "mailto:support@mintlify.com"
+      "url": "mailto:support@craftlands.host"
     }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://craftlands.host/"
   },
   "navigation": [
     {
@@ -59,8 +59,7 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify",
-    "github": "https://github.com/mintlify"
+    "discord": "https://discord.com/invite/craftlandshost",
+    "youtube": "https://www.youtube.com/@CraftLandsHosting"
   }
 }
