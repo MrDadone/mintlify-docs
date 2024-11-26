@@ -1,84 +1,51 @@
 ---
-title: "SS"
-description: "Text, title, and styling in standard markdown"
+title: "SFTP"
 icon: "text-size"
+description: "How to configure an SFTP client for Minecraft"
 ---
 
-## Titles
+## **How to Configure an SFTP Client using WinSCP** or FileZilla
 
-Best used for section headers.
+1. Download a SFTP client like [winscp](https://winscp.net/) - [filezilla](https://filezilla-project.org/)
 
-```md
-## Titles
-```
+2. Go to our [panel ](https://panel.craftlands.host/), login and open the server
 
-### Subtitles
+3. Go to the settings section at the bottom of your server side menu
 
-Best use to subsection headers.
-
-```md
-### Subtitles
-```
+4. Click launch SFTP
 
 <Tip>
-  Each **title** and **subtitle** creates an anchor and also shows up on the table of contents on the right.
+  If this fails please continue the guide
 </Tip>
 
-## Text Formatting
+## FileZilla Manual
 
-We support most markdown formatting. Simply add `**`, `_`, or `~` around text to format it.
+1. Open FileZilla
 
-| Style         | How to write it   | Result            |
-| ------------- | ----------------- | ----------------- |
-| Bold          | `**bold**`        | **bold**          |
-| Italic        | `_italic_`        | *italic*          |
-| Strikethrough | `~strikethrough~` | ~~strikethrough~~ |
+2. On the top of filezilla you should see a few fiels - Host : Username: Password: Port:&#x20;
 
-You can combine these. For example, write `**_bold and italic_**` to get ***bold and italic*** text.
+3. Go to our [panel ](https://panel.craftlands.host/), login and open the server
 
-You need to use HTML to write superscript and subscript text. That is, add `<sup>` or `<sub>` around your text.
+4. Go to the settings section at the bottom of your server side menu
 
-| Text Size   | How to write it          | Result                 |
-| ----------- | ------------------------ | ---------------------- |
-| Superscript | `<sup>superscript</sup>` | <sup>superscript</sup> |
-| Subscript   | `<sub>subscript</sub>`   | <sub>subscript</sub>   |
+5. Scroll down until you find SFTP DETAILS
 
-## Linking to Pages
+6. And click to copy the details Host (put it on host on filezilla) Username, and the password will be your panel password
 
-You can add a link by wrapping text in `[]()`. You would write `[link to google](https://google.com)` to [link to google](https://google.com).
+7. Simply click quick connect and you are done&#x20;
 
-Links to pages in your docs need to be root-relative. Basically, you should include the entire folder path. For example, `[link to text](/writing-content/text)` links to the page "Text" in our components section.
+## WinSCP Manual
 
-Relative links like `[link to text](../text)` will open slower because we cannot optimize them as easily.
+1. Open WinSCP
 
-## Blockquotes
+2. Choose **New Session**
 
-### Singleline
+3. Go to our [panel ](https://panel.craftlands.host/), login and open the server
 
-To create a blockquote, add a `>` in front of a paragraph.
+4. Go to the settings section at the bottom of your server side menu
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
+5. Scroll down until you find SFTP DETAILS
 
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
-```
+6. And click to copy the details Host (put it on host on winscp) Username, and the password will be your panel password
 
-### Multiline
-
-> Dorothy followed her through many of the beautiful rooms in her castle.The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
-
-### LaTeX
-
-Mintlify supports [LaTeX](https://www.latex-project.org) through the Latex component.
-
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-
-```md
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-```
+7. Simply click quick connect and you are done&#x20;
