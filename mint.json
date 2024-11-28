@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Prism Starter Kit",
+  "name": "CraftLands Docs",
   "theme": "prism",
   "logo": {
     "dark": "/logo/dark.svg",
