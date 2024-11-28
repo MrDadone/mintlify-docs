@@ -3,8 +3,8 @@
   "name": "CraftLands Docs",
   "theme": "prism",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg",
+    "dark": "https://craftlands.host/img/IconLogo.svg",
+    "light": "https://craftlands.host/img/IconLogo.svg",
     "href": "https://craftlands.host/"
   },
   "favicon": "/favicon.svg",
