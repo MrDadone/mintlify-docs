@@ -33,7 +33,7 @@
     {
       "group": "Essentials",
       "pages": [
-        "essentials/getstarted",
+        "getstarted",
         "essentials/sftp",
       ]
     },
