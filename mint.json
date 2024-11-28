@@ -28,16 +28,16 @@
       "group": "",
       "pages": [
         "introduction",
-        "features",
+        "features"
       ]
     },
     {
       "group": "Essentials",
       "pages": [
         "getstarted",
-        "essentials/sftp",
+        "essentials/sftp"
       ]
-    },
+    }
   ],
   "footerSocials": {
     "discord": "https://discord.com/invite/craftlandshost",
