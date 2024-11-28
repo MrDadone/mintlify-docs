@@ -7,7 +7,7 @@
     "light": "https://craftlands.host/img/IconLogo.svg",
     "href": "https://craftlands.host/"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://craftlands.host/img/favicon.webp",
   "colors": {
     "primary": "#04e4dc",
     "light": "#04e4dc",
